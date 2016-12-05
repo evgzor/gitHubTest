@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B6B999A948727C3B7F9D1D /* libPods-GitHubVieverTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FE1A7772BB72320280D1AE /* libPods-GitHubVieverTests.a */; };
+		EB5780F8D13A2855A88274D4 /* libPods-GitHubViever.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D4897AD672A650583F73FC /* libPods-GitHubViever.a */; };
+		F06DE7CA1D3117040025A251 /* NetworkingProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DE7C91D3117040025A251 /* NetworkingProcessing.m */; };
+		F06DE7CF1D31492A0025A251 /* NetworkingProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DE7C91D3117040025A251 /* NetworkingProcessing.m */; };
+		F06DE7D01D31492B0025A251 /* NetworkingProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DE7C91D3117040025A251 /* NetworkingProcessing.m */; };
+		F06DE7D31D314CD60025A251 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF2F1D3103660042FBE1 /* Owner.m */; };
+		F06DE7D41D314CD60025A251 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF2F1D3103660042FBE1 /* Owner.m */; };
+		F06DE7D51D314CDB0025A251 /* ReposData.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF311D3103660042FBE1 /* ReposData.m */; };
+		F06DE7D61D314CDB0025A251 /* ReposData.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF311D3103660042FBE1 /* ReposData.m */; };
+		F06DE7D81D3151DD0025A251 /* sampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = F06DE7D71D3151DD0025A251 /* sampleData.json */; };
+		F0D4CEF21D30F94B0042FBE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CEF11D30F94B0042FBE1 /* main.m */; };
+		F0D4CEF51D30F94B0042FBE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CEF41D30F94B0042FBE1 /* AppDelegate.m */; };
+		F0D4CEFD1D30F94B0042FBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D4CEFC1D30F94B0042FBE1 /* Assets.xcassets */; };
+		F0D4CF0B1D30F94B0042FBE1 /* GitHubVieverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF0A1D30F94B0042FBE1 /* GitHubVieverTests.m */; };
+		F0D4CF161D30F94B0042FBE1 /* GitHubVieverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF151D30F94B0042FBE1 /* GitHubVieverUITests.m */; };
+		F0D4CF281D3102D60042FBE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF271D3102D60042FBE1 /* ViewController.m */; };
+		F0D4CF321D3103660042FBE1 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF2F1D3103660042FBE1 /* Owner.m */; };
+		F0D4CF331D3103660042FBE1 /* ReposData.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF311D3103660042FBE1 /* ReposData.m */; };
+		F0D4CF3B1D310F520042FBE1 /* CommonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D4CF3A1D310F520042FBE1 /* CommonViewCell.m */; };
+		F9F076BA8126AE6234F7C8C9 /* libPods-GitHubVieverUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 547B5EFC5A4200F2F76CEC91 /* libPods-GitHubVieverUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0D4CF071D30F94B0042FBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D4CEE51D30F94B0042FBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D4CEEC1D30F94B0042FBE1;
+			remoteInfo = GitHubViever;
+		};
+		F0D4CF121D30F94B0042FBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D4CEE51D30F94B0042FBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D4CEEC1D30F94B0042FBE1;
+			remoteInfo = GitHubViever;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C38F90B138D4E390D549D3 /* Pods-GitHubViever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubViever.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubViever/Pods-GitHubViever.release.xcconfig"; sourceTree = "<group>"; };
+		547B5EFC5A4200F2F76CEC91 /* libPods-GitHubVieverUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubVieverUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD64DD8B35CA9EC5FFFDE44 /* Pods-GitHubVieverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubVieverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubVieverTests/Pods-GitHubVieverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86FE1A7772BB72320280D1AE /* libPods-GitHubVieverTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubVieverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD0B7A9432691B618B88A67 /* Pods-GitHubVieverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubVieverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubVieverUITests/Pods-GitHubVieverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5825E3566583B0219270123 /* Pods-GitHubVieverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubVieverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubVieverTests/Pods-GitHubVieverTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1D4897AD672A650583F73FC /* libPods-GitHubViever.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubViever.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9406D5F7431153949A9BDF1 /* Pods-GitHubViever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubViever.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubViever/Pods-GitHubViever.debug.xcconfig"; sourceTree = "<group>"; };
+		D30A02067AD7DF7500BDD979 /* Pods-GitHubVieverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubVieverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubVieverUITests/Pods-GitHubVieverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F06DE7C81D3117040025A251 /* NetworkingProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkingProcessing.h; path = NetworkProcessing/NetworkingProcessing.h; sourceTree = "<group>"; };
+		F06DE7C91D3117040025A251 /* NetworkingProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkingProcessing.m; path = NetworkProcessing/NetworkingProcessing.m; sourceTree = "<group>"; };
+		F06DE7D71D3151DD0025A251 /* sampleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleData.json; sourceTree = "<group>"; };
+		F0D4CEED1D30F94B0042FBE1 /* GitHubViever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubViever.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D4CEF11D30F94B0042FBE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0D4CEF31D30F94B0042FBE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0D4CEF41D30F94B0042FBE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0D4CEFC1D30F94B0042FBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0D4CF011D30F94B0042FBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D4CF061D30F94B0042FBE1 /* GitHubVieverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubVieverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D4CF0A1D30F94B0042FBE1 /* GitHubVieverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubVieverTests.m; sourceTree = "<group>"; };
+		F0D4CF0C1D30F94B0042FBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D4CF111D30F94B0042FBE1 /* GitHubVieverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubVieverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D4CF151D30F94B0042FBE1 /* GitHubVieverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubVieverUITests.m; sourceTree = "<group>"; };
+		F0D4CF171D30F94B0042FBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D4CF261D3102D60042FBE1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controllers/ViewController.h; sourceTree = "<group>"; };
+		F0D4CF271D3102D60042FBE1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controllers/ViewController.m; sourceTree = "<group>"; };
+		F0D4CF2D1D3103660042FBE1 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		F0D4CF2E1D3103660042FBE1 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		F0D4CF2F1D3103660042FBE1 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
+		F0D4CF301D3103660042FBE1 /* ReposData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReposData.h; sourceTree = "<group>"; };
+		F0D4CF311D3103660042FBE1 /* ReposData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReposData.m; sourceTree = "<group>"; };
+		F0D4CF361D31042F0042FBE1 /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		F0D4CF391D310F520042FBE1 /* CommonViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonViewCell.h; path = Views/CommonViewCell.h; sourceTree = "<group>"; };
+		F0D4CF3A1D310F520042FBE1 /* CommonViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonViewCell.m; path = Views/CommonViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0D4CEEA1D30F94B0042FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5780F8D13A2855A88274D4 /* libPods-GitHubViever.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D4CF031D30F94B0042FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B6B999A948727C3B7F9D1D /* libPods-GitHubVieverTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D4CF0E1D30F94B0042FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F076BA8126AE6234F7C8C9 /* libPods-GitHubVieverUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88CCD6F8681971DDEFB266DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02C38F90B138D4E390D549D3 /* Pods-GitHubViever.release.xcconfig */,
+				A5825E3566583B0219270123 /* Pods-GitHubVieverTests.release.xcconfig */,
+				9CD0B7A9432691B618B88A67 /* Pods-GitHubVieverUITests.release.xcconfig */,
+				B9406D5F7431153949A9BDF1 /* Pods-GitHubViever.debug.xcconfig */,
+				6CD64DD8B35CA9EC5FFFDE44 /* Pods-GitHubVieverTests.debug.xcconfig */,
+				D30A02067AD7DF7500BDD979 /* Pods-GitHubVieverUITests.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C2D98517BECD649B3B1E65C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1D4897AD672A650583F73FC /* libPods-GitHubViever.a */,
+				86FE1A7772BB72320280D1AE /* libPods-GitHubVieverTests.a */,
+				547B5EFC5A4200F2F76CEC91 /* libPods-GitHubVieverUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F06DE7C71D3116B10025A251 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F06DE7CB1D31170D0025A251 /* NetworkingProcessing */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		F06DE7CB1D31170D0025A251 /* NetworkingProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				F06DE7C81D3117040025A251 /* NetworkingProcessing.h */,
+				F06DE7C91D3117040025A251 /* NetworkingProcessing.m */,
+			);
+			name = NetworkingProcessing;
+			sourceTree = "<group>";
+		};
+		F06DE7CC1D3118510025A251 /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CEFC1D30F94B0042FBE1 /* Assets.xcassets */,
+			);
+			name = Resorces;
+			sourceTree = "<group>";
+		};
+		F0D4CEE41D30F94B0042FBE1 = {
+			isa = PBXGroup;
+			children = (
+				F0D4CEEF1D30F94B0042FBE1 /* GitHubViever */,
+				F0D4CF091D30F94B0042FBE1 /* GitHubVieverTests */,
+				F0D4CF141D30F94B0042FBE1 /* GitHubVieverUITests */,
+				F0D4CEEE1D30F94B0042FBE1 /* Products */,
+				88CCD6F8681971DDEFB266DB /* Pods */,
+				8C2D98517BECD649B3B1E65C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0D4CEEE1D30F94B0042FBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CEED1D30F94B0042FBE1 /* GitHubViever.app */,
+				F0D4CF061D30F94B0042FBE1 /* GitHubVieverTests.xctest */,
+				F0D4CF111D30F94B0042FBE1 /* GitHubVieverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0D4CEEF1D30F94B0042FBE1 /* GitHubViever */ = {
+			isa = PBXGroup;
+			children = (
+				F06DE7CC1D3118510025A251 /* Resorces */,
+				F06DE7C71D3116B10025A251 /* Libraries */,
+				F0D4CF381D310EFF0042FBE1 /* Views */,
+				F0D4CF251D31024D0042FBE1 /* Models */,
+				F0D4CF241D3101EA0042FBE1 /* Controllers */,
+				F0D4CF231D3101BA0042FBE1 /* Application */,
+				F0D4CEF01D30F94B0042FBE1 /* Supporting Files */,
+			);
+			path = GitHubViever;
+			sourceTree = "<group>";
+		};
+		F0D4CEF01D30F94B0042FBE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0D4CF091D30F94B0042FBE1 /* GitHubVieverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CF0A1D30F94B0042FBE1 /* GitHubVieverTests.m */,
+				F06DE7D71D3151DD0025A251 /* sampleData.json */,
+				F0D4CF0C1D30F94B0042FBE1 /* Info.plist */,
+			);
+			path = GitHubVieverTests;
+			sourceTree = "<group>";
+		};
+		F0D4CF141D30F94B0042FBE1 /* GitHubVieverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CF151D30F94B0042FBE1 /* GitHubVieverUITests.m */,
+				F0D4CF171D30F94B0042FBE1 /* Info.plist */,
+			);
+			path = GitHubVieverUITests;
+			sourceTree = "<group>";
+		};
+		F0D4CF231D3101BA0042FBE1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CEF31D30F94B0042FBE1 /* AppDelegate.h */,
+				F0D4CEF41D30F94B0042FBE1 /* AppDelegate.m */,
+				F0D4CF011D30F94B0042FBE1 /* Info.plist */,
+				F0D4CEF11D30F94B0042FBE1 /* main.m */,
+				F0D4CF361D31042F0042FBE1 /* Warnings.xcconfig */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		F0D4CF241D3101EA0042FBE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CF261D3102D60042FBE1 /* ViewController.h */,
+				F0D4CF271D3102D60042FBE1 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F0D4CF251D31024D0042FBE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CF2C1D3103660042FBE1 /* GitHubModel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F0D4CF2C1D3103660042FBE1 /* GitHubModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CF2D1D3103660042FBE1 /* DataModels.h */,
+				F0D4CF2E1D3103660042FBE1 /* Owner.h */,
+				F0D4CF2F1D3103660042FBE1 /* Owner.m */,
+				F0D4CF301D3103660042FBE1 /* ReposData.h */,
+				F0D4CF311D3103660042FBE1 /* ReposData.m */,
+			);
+			name = GitHubModel;
+			path = Model/GitHubModel;
+			sourceTree = "<group>";
+		};
+		F0D4CF381D310EFF0042FBE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4CF391D310F520042FBE1 /* CommonViewCell.h */,
+				F0D4CF3A1D310F520042FBE1 /* CommonViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0D4CEEC1D30F94B0042FBE1 /* GitHubViever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D4CF1A1D30F94B0042FBE1 /* Build configuration list for PBXNativeTarget "GitHubViever" */;
+			buildPhases = (
+				0628E21150752054AAF29461 /* [CP] Check Pods Manifest.lock */,
+				F0D4CEE91D30F94B0042FBE1 /* Sources */,
+				F0D4CEEA1D30F94B0042FBE1 /* Frameworks */,
+				F0D4CEEB1D30F94B0042FBE1 /* Resources */,
+				D944B58F485ECD15DE79B3FC /* [CP] Embed Pods Frameworks */,
+				BBBC4DA68CC66245E7879C39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubViever;
+			productName = GitHubViever;
+			productReference = F0D4CEED1D30F94B0042FBE1 /* GitHubViever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0D4CF051D30F94B0042FBE1 /* GitHubVieverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D4CF1D1D30F94B0042FBE1 /* Build configuration list for PBXNativeTarget "GitHubVieverTests" */;
+			buildPhases = (
+				57B7BB3BF654BF88C5423C29 /* [CP] Check Pods Manifest.lock */,
+				F0D4CF021D30F94B0042FBE1 /* Sources */,
+				F0D4CF031D30F94B0042FBE1 /* Frameworks */,
+				F0D4CF041D30F94B0042FBE1 /* Resources */,
+				1C4D1FD43C928600909CAE09 /* [CP] Embed Pods Frameworks */,
+				4475CAA42DC3B8E66F52ED51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D4CF081D30F94B0042FBE1 /* PBXTargetDependency */,
+			);
+			name = GitHubVieverTests;
+			productName = GitHubVieverTests;
+			productReference = F0D4CF061D30F94B0042FBE1 /* GitHubVieverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0D4CF101D30F94B0042FBE1 /* GitHubVieverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D4CF201D30F94B0042FBE1 /* Build configuration list for PBXNativeTarget "GitHubVieverUITests" */;
+			buildPhases = (
+				BAFB608A0E8B811BF1FF02F0 /* [CP] Check Pods Manifest.lock */,
+				F0D4CF0D1D30F94B0042FBE1 /* Sources */,
+				F0D4CF0E1D30F94B0042FBE1 /* Frameworks */,
+				F0D4CF0F1D30F94B0042FBE1 /* Resources */,
+				8F96F06A1DE05CC8C3C41A87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D4CF131D30F94B0042FBE1 /* PBXTargetDependency */,
+			);
+			name = GitHubVieverUITests;
+			productName = GitHubVieverUITests;
+			productReference = F0D4CF111D30F94B0042FBE1 /* GitHubVieverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0D4CEE51D30F94B0042FBE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eugene Zorin";
+				TargetAttributes = {
+					F0D4CEEC1D30F94B0042FBE1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F0D4CF051D30F94B0042FBE1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F0D4CEEC1D30F94B0042FBE1;
+					};
+					F0D4CF101D30F94B0042FBE1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F0D4CEEC1D30F94B0042FBE1;
+					};
+				};
+			};
+			buildConfigurationList = F0D4CEE81D30F94B0042FBE1 /* Build configuration list for PBXProject "GitHubViever" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0D4CEE41D30F94B0042FBE1;
+			productRefGroup = F0D4CEEE1D30F94B0042FBE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0D4CEEC1D30F94B0042FBE1 /* GitHubViever */,
+				F0D4CF051D30F94B0042FBE1 /* GitHubVieverTests */,
+				F0D4CF101D30F94B0042FBE1 /* GitHubVieverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0D4CEEB1D30F94B0042FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D4CEFD1D30F94B0042FBE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D4CF041D30F94B0042FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06DE7D81D3151DD0025A251 /* sampleData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D4CF0F1D30F94B0042FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0628E21150752054AAF29461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C4D1FD43C928600909CAE09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubVieverTests/Pods-GitHubVieverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4475CAA42DC3B8E66F52ED51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubVieverTests/Pods-GitHubVieverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B7BB3BF654BF88C5423C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F96F06A1DE05CC8C3C41A87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubVieverUITests/Pods-GitHubVieverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFB608A0E8B811BF1FF02F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBBC4DA68CC66245E7879C39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubViever/Pods-GitHubViever-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D944B58F485ECD15DE79B3FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubViever/Pods-GitHubViever-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0D4CEE91D30F94B0042FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D4CF281D3102D60042FBE1 /* ViewController.m in Sources */,
+				F0D4CF321D3103660042FBE1 /* Owner.m in Sources */,
+				F0D4CEF51D30F94B0042FBE1 /* AppDelegate.m in Sources */,
+				F0D4CEF21D30F94B0042FBE1 /* main.m in Sources */,
+				F0D4CF331D3103660042FBE1 /* ReposData.m in Sources */,
+				F06DE7CA1D3117040025A251 /* NetworkingProcessing.m in Sources */,
+				F0D4CF3B1D310F520042FBE1 /* CommonViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D4CF021D30F94B0042FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06DE7D31D314CD60025A251 /* Owner.m in Sources */,
+				F06DE7D61D314CDB0025A251 /* ReposData.m in Sources */,
+				F06DE7CF1D31492A0025A251 /* NetworkingProcessing.m in Sources */,
+				F0D4CF0B1D30F94B0042FBE1 /* GitHubVieverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D4CF0D1D30F94B0042FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06DE7D41D314CD60025A251 /* Owner.m in Sources */,
+				F06DE7D51D314CDB0025A251 /* ReposData.m in Sources */,
+				F06DE7D01D31492B0025A251 /* NetworkingProcessing.m in Sources */,
+				F0D4CF161D30F94B0042FBE1 /* GitHubVieverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0D4CF081D30F94B0042FBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D4CEEC1D30F94B0042FBE1 /* GitHubViever */;
+			targetProxy = F0D4CF071D30F94B0042FBE1 /* PBXContainerItemProxy */;
+		};
+		F0D4CF131D30F94B0042FBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D4CEEC1D30F94B0042FBE1 /* GitHubViever */;
+			targetProxy = F0D4CF121D30F94B0042FBE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0D4CF181D30F94B0042FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D4CF361D31042F0042FBE1 /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0D4CF191D30F94B0042FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0D4CF1B1D30F94B0042FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9406D5F7431153949A9BDF1 /* Pods-GitHubViever.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = GitHubViever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.GitHubViever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0D4CF1C1D30F94B0042FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C38F90B138D4E390D549D3 /* Pods-GitHubViever.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = GitHubViever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.GitHubViever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0D4CF1E1D30F94B0042FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD64DD8B35CA9EC5FFFDE44 /* Pods-GitHubVieverTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GitHubVieverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.GitHubVieverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubViever.app/GitHubViever";
+			};
+			name = Debug;
+		};
+		F0D4CF1F1D30F94B0042FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5825E3566583B0219270123 /* Pods-GitHubVieverTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GitHubVieverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.GitHubVieverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubViever.app/GitHubViever";
+			};
+			name = Release;
+		};
+		F0D4CF211D30F94B0042FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30A02067AD7DF7500BDD979 /* Pods-GitHubVieverUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GitHubVieverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.GitHubVieverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GitHubViever;
+			};
+			name = Debug;
+		};
+		F0D4CF221D30F94B0042FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD0B7A9432691B618B88A67 /* Pods-GitHubVieverUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GitHubVieverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.GitHubVieverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GitHubViever;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0D4CEE81D30F94B0042FBE1 /* Build configuration list for PBXProject "GitHubViever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D4CF181D30F94B0042FBE1 /* Debug */,
+				F0D4CF191D30F94B0042FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D4CF1A1D30F94B0042FBE1 /* Build configuration list for PBXNativeTarget "GitHubViever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D4CF1B1D30F94B0042FBE1 /* Debug */,
+				F0D4CF1C1D30F94B0042FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D4CF1D1D30F94B0042FBE1 /* Build configuration list for PBXNativeTarget "GitHubVieverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D4CF1E1D30F94B0042FBE1 /* Debug */,
+				F0D4CF1F1D30F94B0042FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D4CF201D30F94B0042FBE1 /* Build configuration list for PBXNativeTarget "GitHubVieverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D4CF211D30F94B0042FBE1 /* Debug */,
+				F0D4CF221D30F94B0042FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0D4CEE51D30F94B0042FBE1 /* Project object */;
+}
